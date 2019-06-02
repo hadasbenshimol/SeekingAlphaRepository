@@ -1,0 +1,66 @@
+﻿@model FollowersApp.Models.FollowingPageModel
+
+@{
+    ViewBag.Title = "Index";
+    //Layout = null;
+}
+<div class="toggle-btn">
+    
+    <button id="btnToggleCookie" type="button">
+        Toggle Cookie State
+    </button>
+</div>
+
+@if (Model.LoggedInUserId > 0 && !string.IsNullOrEmpty(Model.LoggedInUserName))
+{
+<div class="row">
+    <p class="text-success">
+        Welcome @Model.LoggedInUserName, <br />
+        Please choose uses to follow:<br />
+
+    </p>
+    <table id="UsersTbl" class="table table-condensed table-hover">
+        <thead>
+            <tr>
+                <th>Name </th>
+                <th>Group</th>
+                <th>Num of Followers</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.UsersList)
+            {
+                var currUserFollowing = user.Followers != null && user.Followers.Any(f => f == Model.LoggedInUserId.ToString());
+                <tr data-userid="@user.Id">
+                    <td>@user.Name</td>
+                    <td>@user.GroupName</td>
+                    <td><span id="numOfFols">@user.NumOfFollowers</span></td>
+                    <td>
+                        <button id="btnFollow" type="button" class="follow-btn btn btn-@(!(currUserFollowing)?"warning":"success") btn-block" data-followedbyuser="@currUserFollowing">
+                            @{
+                                if (currUserFollowing)
+                                {
+                                    <text>Following</text>
+                                }
+                                else
+                                {
+                                    <text>Follow</text>
+                                }
+                            }
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+}
+else
+{
+    <div class="row">
+        <p class="text-danger">Hi, <br/> You must by signed in! <br/> Please click on the button.</p>
+</div>
+}
+
+

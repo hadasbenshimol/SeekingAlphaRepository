@@ -1,0 +1,12 @@
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\bin\Debug\Entities.dll.config
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\bin\Debug\Entities.dll
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\bin\Debug\Entities.pdb
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\bin\Debug\EntityFramework.dll
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\bin\Debug\EntityFramework.xml
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\obj\Debug\Entities.dll
+C:\Users\הדס בן שימול\source\repos\SeekingAlphaProject\FollowersApp\Entities\obj\Debug\Entities.pdb
